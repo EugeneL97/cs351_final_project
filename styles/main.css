@@ -1,0 +1,42 @@
+/* main.css - Main stylesheet with common styles for all pages */
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    background-image: url("../images/random6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    border: 5px inset #ff0000;
+    background-color: #ff00ff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  main {
+    font-size: 1rem;
+    padding: 2rem;
+  }
+
+  footer {
+    font-weight: bold;
+    background-color: #A00000;
+    text-align: center;
+    padding: 1rem;
+    border: 2px inset #00ff00;
+}
+  
+  /* Add other common styles here */
+  

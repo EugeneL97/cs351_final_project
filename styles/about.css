@@ -1,0 +1,58 @@
+@import url("main.css");
+
+.text-box {
+    background-color: #00ffff;
+    color: #000000;
+    font-weight: bold;
+    padding: 2rem;
+    margin-top: 2rem;
+    border: 2px dashed #00ff00;
+    text-align: center;
+  }
+  
+  .text-box h2 {
+    font-size: 2rem;
+  }
+  
+  .social-links {
+    background-color: #008000;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border: 2px dashed #00ff00;
+  }
+  
+  .social-links h2 {
+    font-size: 2rem;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .social-links img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.5);
+  }
+  
+  footer {
+    font-weight: bold;
+    background-color: #A00000;
+    text-align: center;
+    padding: 1rem;
+    border: 2px inset #00ff00;
+  }
+  
